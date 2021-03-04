@@ -1,0 +1,3 @@
+alert("creation d'un email");
+
+document.getElementById("emails-list").insertAdjacentHTML("beforeend", "<%= j render 'emails', email: @email %>")
